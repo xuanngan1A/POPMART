@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+.radio-canada-big{
+  font-family: "Radio Canada Big", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+body{
+	 font-family: "Radio Canada Big", sans-serif;;font-size: 16px; color: #666666; margin: 0
+}
+header{
+	width: 100%;height: 60px;background-color: #white; border-bottom: 1px solid darkred
+}
+.banner{
+	width: 100%;min-height: 500px
+}
+aside{
+	width: 30%; padding: 15px; min-height: 400px;
+}
+.content{
+	width: 70%;padding: 15px;min-height: 400px;
+}
+footer{
+width: 100%; min-height: 200px; background-color: #C4C4C4
+}
+.menu{
+	padding-top: 15px
+}
+.menu ul{
+	margin: 0;padding: 0;list-style: none;display: flex
+}
+.menu ul li a {
+	padding: 10px 20px; text-decoration: none;font-size: 17px;color: #464646;border-radius: 20px
+	
+}
+.menu ul li a:hover{
+	background-color: darkred;color:white
+}
+#slide .owl-dots{ position:absolute; bottom: 10px; left:45%;}
+#slide .owl-dots .owl-dot span {
+      width: 12px;
+      height: 12px; 	
+}
+#slide .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+#slide .owl-nav [class*='owl-'] {
+	font-size:50px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: #fff
+}
+
+#slide .owl-nav .owl-next{ position:absolute; right:5%;}
+#slide .owl-nav .owl-prev{ position:absolute; left:5%;}
+#slide .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color:darkred;
+      text-decoration: none; }
+.text-do{
+	color: darkred
+		
+}
+aside ul{
+	margin: 0; padding: 0;list-style: none;display: flex;flex-direction: column
+}
+aside ul li a {
+	text-decoration: none; padding: 10px; display: block; color: #666666
+}
+aside ul li{
+	border-bottom: 1px solid #666666
+}
+aside ul li a:hover{
+	background-color: darkred; color:white
+		
+}
+.img-100{
+	width: 100%;height:auto
+}
+footer a{
+	text-decoration: none;color: #3f3f3f
+}
+footer a:hover{
+	color: darkred
+}
+.bg-xanh{
+	background-color:cadetblue
+}
+footer ul{
+	margin: 0;padding: 0;list-style: none; display: flex;flex-direction: column
+}
+footer ul li a{
+	padding: 10px;display: block;color: #666666
+}
+.logo{
+	padding-top: 10px}
